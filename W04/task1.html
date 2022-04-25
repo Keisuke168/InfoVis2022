@@ -2,7 +2,7 @@
 
 <head>
 
-<title>W04: Example 01</title>
+<title>W04: task1</title>
 
 </head>
 
@@ -10,7 +10,7 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script>
 
-            var svg = d3.select("body").append("svg");
+            var svg = d3.select("body").append("svg").attr("height", '100%').attr("width", '100%');;
             d3.csv("https://Keisuke168.github.io/InfoVis2022/W04/w04_task1.csv", draw );
             function draw(data){
             svg.selectAll("circle")
