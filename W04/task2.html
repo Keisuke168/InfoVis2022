@@ -22,8 +22,7 @@
                 .attr("y", function(d,i){ return padding + i * ( height + padding ); })
                 .attr("height", function(d){ return height; })
                 .attr("width", function(d){ return d.width; })
-                .style("fill", function(d){ return d.c; })
-                .text(function(d){ return 'aa'});
+                .style("fill", function(d){ return d.c; });
             svg.selectAll("text")
                 .data(data)
                 .enter()
