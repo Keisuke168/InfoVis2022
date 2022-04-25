@@ -1,9 +1,4 @@
-x,y,r,c
-20,20,10,#e6e6fa
-100,50,10,#ff69b4
-720,830,10,#7fffd4
-270,130,10,#faebd7
-150,70,10,#ff8c00
-111,530,13,#ff69b4
-720,40,10,#7fffd4
-160,30,5,#faebd7
+width,c,label
+100,red,Label1
+50,green,Label2
+80,blue,Label3
