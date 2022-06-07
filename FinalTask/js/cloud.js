@@ -1,7 +1,7 @@
 var dic = {};
 var word = {};
 
-d3.csv("https://keisuke168.github.io/InfoVis2022/Finaltask/netflix.csv")
+d3.csv("https://keisuke168.github.io/InfoVis2022/FinalTask/netflix.csv")
     .then(data => {
         data.forEach(d => {
           var year = d['Netflix Release Date'].match(/\d{4}/)
