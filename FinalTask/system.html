@@ -8,15 +8,15 @@
 </head>
 
 <body>
-  <h1>Popular Genres on <span class="netflix">Netflix</span> in <span id="year">2015</span></h1>
+  <h1><span class="netflix">Netflix</span> analysis</h1>
   <tr>
     <p>YEAR(2015~2021)</p>
     <p><input type="range" id="inputSlideBar" min="2015" max="2021" value="2015" step="1"></p>
     </tr> 
   <link rel="stylesheet" href="layout.css">
-  <div>
-    <div class="cloud"></div>
-    <div class="graph"></div>
+  <div class="flex">
+    <div class="cloud"><h1>Popular Genre in <span id="year">2015</span></h1></div>
+    <div class="graph"><h1>IMDb Score in <span id="year2">2015</span></h1></div>
   </div>
   <footer></footer>
 
@@ -24,7 +24,8 @@
   <script src="https://d3js.org/d3.v6.min.js" charset="utf-8"></script>
   <script type="text/javascript" src="js/d3.layout.cloud.js"></script>
   <script type="text/javascript" src="js/WordCloud.js"></script>
-  <script src="js/cloud.js"></script>
+  <script type="text/javascript" src="js/Histgram.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

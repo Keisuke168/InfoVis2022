@@ -3,12 +3,36 @@ h1 {
     font-family: 'Impact';
 }
 
+.flex{
+    display: flex;
+
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+p{
+    margin:0;
+}
+
 .cloud{
-    width:50%;
+    width:40%;
+    margin:1%;
+}
+
+.cloud h1{
+    text-decoration: underline;
+    text-decoration-color:rgb(229, 9, 20) ;
 }
 
 .graph{
-    width:50%;
+    margin: 1%;
+    width:40%;
+}
+
+.graph h1{
+    text-decoration: underline;
+    text-decoration-color:rgb(91, 118, 227);
 }
 
 .netflix{
