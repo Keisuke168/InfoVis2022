@@ -18,7 +18,7 @@ class Histogram{
 
     render(){
         let self = this;
-        self.makeHist(self.data[self.year]);
+        self.makeHist(self.data[self.year],{xLabel:'IMDb Score'});
     }
 
     makeHist(data, {
